@@ -24,3 +24,6 @@ urlpatterns = [
 
 ]
 
+admin.site.site_header = "Administración de Alarmas"
+admin.site.index_title = "Modulos de administración"
+admin.site.site_title = "Sistema Alarmas"
