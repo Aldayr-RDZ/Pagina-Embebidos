@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('alarmas.urls')),
     path('alarma/', include('alarmas.api.urls')),
-
+    
 ]
 
 admin.site.site_header = "Administración de Alarmas"
